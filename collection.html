@@ -3,404 +3,594 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Collection | Dee's Cozy Hooks</title>
+    <title>Dee's Cozy Hooks</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+    <script src="script.js"></script>
+    <header>
+        <div class="header">
+        <img src="Logo.JPG" alt="Dee's Cozy Hooks Logo" class="logo">
+        <span class="brandName">Dee'sCozyHooks</span>
+        <div class="hamburger-btn" onclick="toggleMenu(this)">
+  <div class="line1"></div>
+  <div class="line2"></div>
+  <div class="line3"></div>
+</div>
 
-    <nav class="top-nav">
-        <a href="index.html">Back to Home</a>
-        <div class="logo">
-            <img src="Logo.JPG" alt="Dee's Cozy Hooks Logo" class="logoImage">
+<aside class="sidebar" id="sidebar">
+  <nav class="side-nav">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="learn.html" class="nav-link">About us</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+    <a href="collection.html" class="nav-link">Collection</a>
+  </nav>
+</aside>
 
-            <span class="brandName">Dee's</span>
-            <span class="brandSub">Collection</span>
-        </div>
-    </nav>
-
-    <header class="collection-header">
-        <h1 class="glowTextL">The Gallery</h1>
-        <p class="subtitle">Hand-stitched perfection, one loop at a time.</p>
     </header>
+    <div class="filterContainer" >
+        <button class="filterBtn active" onclick="filterCategory('all')">All</button>
+        <button class="filterBtn" onclick="filterCategory('Men')">Men</button>
+        <button class="filterBtn" onclick=" filterCategory('Women')">Women</button>
+        <button class="filterBtn" onclick="filterCategory('Hat')">Hats</button>
+        <button class="filterBtn" onclick="filterCategory('Sweater')">Sweaters</button>
+        <button class="filterBtn" onclick="filterCategory('Bag/Accessories')">Bags/Accessories</button>
 
-    <main class="collection-wrapper">
-        <div class="photo-grid">
-            
-            <div class="photo-card">
-                <img src="IMAGES/sweater (1).jfif" alt="Crochet Hoodie">
-                <div class="card-info">
-                    <h3>Cozy Male Hoodie</h3>
-                </div>
-            </div>
+    </div>
+    <div class="collectionGrid">
+        <h2 class="contactHead">Dee's Gallery</h2>
+        <div class="itemCard Men revealItem">
+            <img src="men/men (1).jfif" alt="">
+            <h3>Cozy shirt</h3>
+        </div>
+        <div class="itemCard Men revealItem">
+            <img src="men/men (2).jfif" alt="">
+            <h3>Colourful Two Piece</h3>
+        </div><div class="itemCard Men revealItem">
+            <img src="men/men (3).jfif" alt="">
+            <h3>Stripped Two Piece</h3>
+        </div>
+        <div class="itemCard Men revealItem">
+            <img src="men/men (5).jfif" alt="">
+            <h3>Cozy Plain Shirt</h3>
+        </div><div class="itemCard Men revealItem">
+            <img src="men/men (6).jfif" alt="">
+            <h3>B&W Stripped Shirt</h3>
+        </div><div class="itemCard Men revealItem">
+            <img src="men/men (7).jfif" alt="">
+            <h3>Net Vest</h3>
+        </div>
+        <div class="itemCard Men revealItem">
+            <img src="men/men (8).jfif" alt="">
+            <h3>Net T-shirt</h3>
+        </div>
+        <div class="itemCard Men revealItem">
+            <img src="men/men (10).jfif" alt="">
+            <h3>Granny Crochet Pant</h3>
+        </div><div class="itemCard Men revealItem">
+            <img src="men/men (11).jfif" alt="">
+            <h3>Official Plain Vest</h3>
+        </div><div class="itemCard Men revealItem">
+            <img src="men/men (12).jfif" alt="">
+            <h3>Cozy Green Shirt</h3>
+        </div><div class="itemCard Men revealItem">
+            <img src="men/men (13).jfif" alt="">
+            <h3>Net Plain Pants and shirt</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (14).jfif" alt="">
+            <h3>Shades of Green Vest</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (15).jfif" alt="">
+            <h3>Chocolate Sripped Two Piece</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (16).jfif" alt="">
+            <h3>B&W Stripped Shirt</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (17).jfif" alt="">
+            <h3>Passion Pattern Shirt</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (18).jfif" alt="">
+            <h3>Daisy Shirt</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (19).jfif" alt="">
+            <h3>Summer Two Piece</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (20).jfif" alt="">
+            <h3>B&W Checkered Shirt</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (21).jfif" alt="">
+            <h3>Fluffy Shorts</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (22).jfif" alt="">
+            <h3>Colourful Shorts</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (23).jfif" alt="">
+            <h3>Line Stripped Shirt and Pant</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (24).jfif" alt="">
+            <h3>Wavy Shorts+Beanie</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (25).jfif" alt="">
+            <h3>Blue Wavy Shorts</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (26).jfif" alt="">
+            <h3>Red and White Shirt</h3>
+        </div><div class="itemCard Men">
+            <img src="men/men (27).jfif" alt="">
+            <h3>Wavy Shirt</h3>
+        </div>
+    
+         <div class="itemCard Men">
+            <img src="men/men (28).jfif" alt="">
+            <h3>Stripped Brown Top</h3>
+        </div>
+         <div class="itemCard Men">
+            <img src="men/men (29).jfif" alt="">
+            <h3>Country Money Shirt</h3>
+        </div>
+         <div class="itemCard Men">
+            <img src="men/men (30).jfif" alt="">
+            <h3>Weavy Pattern Pants</h3>
+        </div>
+        <div class="itemCard Women revealItem">
+            <img src="women/women (1).jfif" alt="">
+            <h3>Passion Pattern Jumpsuit</h3>
+        </div>
+        <div class="itemCard Women revealItem">
+            <img src="women/women (2).jfif" alt="">
+            <h3>Beach Short Gown</h3>
+        </div>
+        <div class="itemCard Women revealItem">
+            <img src="women/women (3).jfif" alt="">
+            <h3>Duster Stripped Skirt</h3>
+        </div>
+        <div class="itemCard Women revealItem">
+            <img src="women/women (4).jfif" alt="">
+            <h3>Net Plain Jacket</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (5).jfif" alt="">
+            <h3>Plain Fitted Two Piece</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (6).jfif" alt="">
+            <h3>Passion Cut Pants</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (7).jfif" alt="">
+            <h3>Stripped Cozy Two Piece</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (8).jfif" alt="">
+            <h3>Plain Cozy Crop Top</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (9).jfif" alt="">
+            <h3>Pink Brallet</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (10).jfif" alt="">
+            <h3>Shades of Brown Gown</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (11).jfif" alt="">
+            <h3>Daisy Fitted Gown</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (12).jfif" alt="">
+            <h3>Creamy Net Crop Top</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (13).jfif" alt="">
+            <h3>Pinky Two Piece</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (14).jfif" alt="">
+            <h3>Petal Purple Gown</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (15).jfif" alt="">
+            <h3>Fitted Sided Top & Skirt</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (16).jfif" alt="">
+            <h3>Fluffy Crop Top</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (17).jfif" alt="">
+            <h3>Green Daisy Brallet</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (18).jfif" alt="">
+            <h3>Stripped Shorts & Shirt</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (19).jfif" alt="">
+            <h3>Chuncky Crop Top and Pants</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (20).jfif" alt="">
+            <h3>Colourful Chunky Jacket  </h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (21).jfif" alt="">
+            <h3>Embriodery Brallet</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (22).jfif" alt="">
+            <h3>Creamy Stripped Shorts</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (23).jfif" alt="">
+            <h3>Sunflower Brallet</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (24).jfif" alt="">
+            <h3>Passion Pattern Robe</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (25).jfif" alt="">
+            <h3>Chuncky Stripped Robe</h3>
+        </div>
+        <div class="itemCard Women">
+            <img src="women/women (26).jfif" alt="">
+            <h3>Flower Bud Brallet</h3>
+        </div>
+          <div class="itemCard Hat revealItem">
+            <img src="hat/hat (1).jfif" alt="">
+            <h3>Kitty Beanie+Gloves</h3>
+        </div>
+           <div class="itemCard Hat revealItem">
+            <img src="hat/hat (2).jfif" alt="">
+            <h3>Flame Beanies</h3>
+        </div>
+           <div class="itemCard Hat revealItem">
+            <img src="hat/hat (3).jfif" alt="">
+            <h3>Jesus Beanies</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (4).jfif" alt="">
+            <h3>Garfield Beanies</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (5).jfif" alt="">
+            <h3>Two Face Kitty Beanie</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (7).jfif" alt="">
+            <h3>Stripped Kitty Beanies</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (8).jfif" alt="">
+            <h3>Spidey Beanies</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (10).jfif" alt="">
+            <h3>Bunny Face Cap</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (11).jfif" alt="">
+            <h3>Ruffled Bucket Hat</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (12).jfif" alt="">
+            <h3>Star Slouchy Beanie</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (13).jfif" alt="">
+            <h3>Gwen Beanies</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (14).jfif" alt="">
+            <h3>Spider Kitty Beanie</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (15).jfif" alt="">
+            <h3>Melons Beanie</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (16).jfif" alt="">
+            <h3>Pokemon Bucket Hat</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (17).jfif" alt="">
+            <h3>Pink Star Slouchy Beanie</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (18).jfif" alt="">
+            <h3>Weenie Head Warmer</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (19).jfif" alt="">
+            <h3>Stripped Bucket Hat</h3>
+        </div>
+           <div class="itemCard Hat">
+            <img src="hat/hat (20).jfif" alt="">
+            <h3>Bear Head Warmer</h3>
+        </div>
+         <div class="itemCard Sweater revealItem">
+            <img src="sweater/swearter (1).jfif" alt="">
+            <h3>Chuncky Sweater</h3>
+        </div>
+         <div class="itemCard Sweater revealItem">
+            <img src="sweater/swearter (2).jfif" alt="">
+            <h3>Fox Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (3).jfif" alt="">
+            <h3>Wooly Robe</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (4).jfif" alt="">
+            <h3>Flame Sweater</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (5).jfif" alt="">
+            <h3>Scream Crop Sweater</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (6).jfif" alt="">
+            <h3>Over Sized Green Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (7).jfif" alt="">
+            <h3>Panda Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (8).jfif" alt="">
+            <h3>Net Crop Long Sleeve</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (9).jfif" alt="">
+            <h3>Checkered Country Sweater</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (10).jfif" alt="">
+            <h3>Cloudy Blue Sweater</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (11).jfif" alt="">
+            <h3>Cozy Crow Neck</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (12).jfif" alt="">
+            <h3>Over Sized Stripped Sweater</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (13).jfif" alt="">
+            <h3>Comfy Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (14).jfif" alt="">
+            <h3>Batwing Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (15).jfif" alt="">
+            <h3>Stripped Sweater</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (16).jfif" alt="">
+            <h3>Chuncky Green Crop Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (17).jfif" alt="">
+            <h3>Grey Crop Sweater</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (18).jfif" alt="">
+            <h3>Net Hoodie</h3>
+        </div>
+        
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (19).jfif" alt="">
+            <h3>Chuncky Over Sized Hoodie</h3>
 
-            <div class="photo-card">
-                <img src="IMAGES/sweater (2).jfif" alt="Crochet Tie">
-                <div class="card-info">
-                    <h3>Batwing Hoodie</h3>
-                </div>
-            </div>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (20).jfif" alt="">
+            <h3>Shades of Colour Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (21).jfif" alt="">
+            <h3>Blue and White Stripped Sweater</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (22).jfif" alt="">
+            <h3>Pink Chuncky Crop Sweater</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (23).jfif" alt="">
+            <h3>Fox Hoodie</h3>
 
-            <div class="photo-card">
-                <img src="IMAGES/sweater (3).jfif" alt="Crochet Bag">
-                <div class="card-info">
-                    <h3>Flashy Unisex Hoodie</h3>
-                </div>
-            </div>
-            <div class="photo-card">
-                <img src="IMAGES/sweater (4).jfif" alt="Crochet Bag">
-                <div class="card-info">
-                    <h3>Petite Jacket Hoodie</h3>
-                </div>
-            </div>
-            
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (24).jfif" alt="">
+            <h3>Country Side Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (25).jfif" alt="">
+            <h3>Dark Knight Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (26).jfif" alt="">
+            <h3>Two Phase Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (27).jfif" alt="">
+            <h3>Red Chunky Crop Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (28).jfif" alt="">
+            <h3>Creamy Daisy Crop Sweater</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (29).jfif" alt="">
+            <h3>Net Stripped Sweater</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (30).jfif" alt="">
+            <h3>Grey A-Hoodie</h3>
+        </div>
+         <div class="itemCard Sweater">
+            <img src="sweater/swearter (31).jfif" alt="">
+            <h3>Football Crop Sweater</h3>
+         </div>
+          <div class="itemCard Bag/Accessories revealItem">
+            <img src="bag-accesories/back-accesories (1).jfif" alt="">
+            <h3>Strawberry Tote Bag</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (2).jfif" alt="">
+            <h3>Hello Kitty Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (3).jfif" alt="">
+            <h3>Spidey Gloves</h3>
 
-            <div class="photo-card">
-                <img src="IMAGES/sweater (5).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Classic Sweater</h3>
-                </div>
-            </div>
-             <div class="photo-card">
-                <img src="IMAGES/male w (3).jfif" alt=" Vest">
-                <div class="card-info">
-                    <h3>Classic Vest</h3>
-                </div>
-            </div>
-             <div class="photo-card">
-                <img src="IMAGES/male w (8).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Male Net Shirt</h3>
-                </div>
-            </div>
-             <div class="photo-card">
-                <img src="IMAGES/male w (5).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Cooperate Vest</h3>
-                </div>
-            </div>
-             <div class="photo-card">
-                <img src="IMAGES/bag (6).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Butterfly Tote</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/bag (7).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Portable Tote</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/bag (8).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Classic Tote</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/bag (9).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    </h3>V-shape Bag</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/bag (10).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Cozy Back Pack</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/accesories (5).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Steering Wheel Cover</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/accesories (6).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Phone case</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/accesories (7).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Glasses Decoration</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/accesories (8).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Key Holders</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/socks (1).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Double Layer Socks</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/socks (2).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Unisex Socks</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/socks (3).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Warm Ankle Socks</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/socks (4).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Thermal Socks</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/socks (6).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Cozy Pantyhose</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/female (3).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Daisy Bralette</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/female (4).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Crop Sweater</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/female (5).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Net Crop</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/female (6).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Colourful Bralette</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/female (7).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Fitted Gown</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/female (8).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Net Tie</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/female (9).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Female Vest</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/img-1 (1).__☆" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Petite Handbag</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/img-1 (30).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Star Tie</h3>
-                </div>
-            </div>
-              <div class="photo-card">
-                <img src="IMAGES/img-1 (35).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Daisy BackPack</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (44).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Ankle Boots</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (45).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Foxie Hoodie</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (48).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Unisex Tie</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (55).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Hoodie</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (59).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Stripped Tie</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (60).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Puffed Socksk</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (61).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Flowery Tie</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (70).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Halved Beanie</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (75).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Stripped Bralette</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (77).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Hair Strap</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (79).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Colorful Tie</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/img-1 (83).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Official Tie</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/cap (1).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Kitty Head-Warmer</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/cap (2).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Female Badanna</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/cap (3).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Beanies</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/cap (5).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Spidey Beanies</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/cap (7).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Plain HeadWarmer</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/cap (8).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Star Beanie</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/cap (9).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Kitty Beanie</h3>
-                </div>
-            </div>
-               <div class="photo-card">
-                <img src="IMAGES/accesories.jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Spidey Gloves</h3>
-                </div>
-            </div>
-                            <div class="photo-card">
-                <img src="IMAGES/accesories (1).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>AirPod Cases</h3>
-                </div>
-            </div>
-                            <div class="photo-card">
-                <img src="IMAGES/accesories (2).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Web Gloves</h3>
-                </div>
-            </div>
-                            <div class="photo-card">
-                <img src="IMAGES/male w (1).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Cozy T-Shirts</h3>
-                </div>
-            </div>
-                            <div class="photo-card">
-                <img src="IMAGES/male w (2).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Calm Vest</h3>
-                </div>
-            </div>
-                            <div class="photo-card">
-                <img src="male shirt/Crochet Pants.jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Crochet Crop and Pants</h3>
-                </div>
-            </div>
-                            <div class="photo-card">
-                <img src="male shirt/crochet top with embroidery.jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Embriodery Crop Top</h3>
-                </div>
-            </div>
-                            <div class="photo-card">
-                <img src="male shirt/Crochet Granny Square Pants & Crop Top Pattern PDF _ Boho Two Piece Outfit - Etsy.jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Squared Crop and Pants</h3>
-                </div>
-            </div>
-                           <div class="photo-card">
-                <img src="IMAGES/bag (1).jfif" alt="Crochet Vest">
-                <div class="card-info">
-                    <h3>Watermelon Tote</h3>
-                </div>
-            </div>
-             
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (4).jfif" alt="">
+            <h3>Tortise Mini Bag</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (5).jfif" alt="">
+            <h3>Checkered Tote</h3>
+
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (6).jfif" alt="">
+            <h3>Flame Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (7).jfif" alt="">
+            <h3>Layer Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (8).jfif" alt="">
+            <h3>Web Net Glove</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (9).jfif" alt="">
+            <h3>Purple Sunflower Purse</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (10).jfif" alt="">
+            <h3>Flower Hair Band</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (11).jfif" alt="">
+            <h3>Watermelon Slice Bag</h3>
+
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (12).jfif" alt="">
+            <h3>Creamy Flower Arm Bag</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (14).jfif" alt="">
+            <h3>Yellow Weave Backpack</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (15).jfif" alt="">
+            <h3>Toast Mini Crossbag</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (16).jfif" alt="">
+            <h3>Foxie Backpack</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (17).jfif" alt="">
+            <h3>Wenie the Pool Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (18).jfif" alt="">
+            <h3>Teddy Portable Bag</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (19).jfif" alt="">
+            <h3>Grey Bandana</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (20).jfif" alt="">
+            <h3>Bee Hive Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (21).jfif" alt="">
+            <h3>Phone Cases</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (22).jfif" alt="">
+            <h3>Stripped Pinktip Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (23).jfif" alt="">
+            <h3>Chunky Plain Arm Bag</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (24).jfif" alt="">
+            <h3>Pink Bow Bag</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (25).jfif" alt="">
+            <h3>Butterfly Print Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (26).jfif" alt="">
+            <h3>Bunny Cross Bag</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (27).jfif" alt="">
+            <h3>No- Print Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (28).jfif" alt="">
+            <h3>Chunky Creamy Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (30).jfif" alt="">
+            <h3>Colourful Stripped Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (31).jfif" alt="">
+            <h3>Beach View Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (32).jfif" alt="">
+            <h3>Colorful Shades Bag</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (34).jfif" alt="">
+            <h3>Pie Hand Bag</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (35).jfif" alt="">
+            <h3> Eye Key Holder</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (36).jfif" alt="">
+            <h3>V-shape Stripped Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (37).jfif" alt="">
+            <h3>Flower Vase Key Holder</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (38).jfif" alt="">
+            <h3>Pink Daisy Tote</h3>
+         </div>
+          <div class="itemCard Bag/Accessories">
+            <img src="bag-accesories/back-accesories (39).jfif" alt="">
+            <h3>Chunky Wine Hand Bag</h3>
+         </div>
 
 
-            
+    </div>
+    <script src="script.js"></script>
+</body>
 
-            </div>
-    </main>
-
-    <footer>
-        <p class="footerWord">&copy; 2026 Dee's Cozy Hooks. All rights reserved.</p>
+<footer class="footer">
+        <p>&copy; 2026 Dee's Cozy Hooks. All rights reserved.</p>
     </footer>
 
-</body>
 </html>
