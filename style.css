@@ -204,12 +204,17 @@ line-height:1.9;
 font-size:1rem;
 }
 
-.pageAbt,
+
 .ideaSection,
 .contactSection,
 .contactBox{
 padding:0 6%;
 margin-top:100px;
+}
+.pageAbt{
+padding:50px 6%;
+background-color: #9333ea;
+margin-top:120px;
 }
 
 .learnMore,
