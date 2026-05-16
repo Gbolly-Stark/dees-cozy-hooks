@@ -513,3 +513,87 @@ width:100%;
 text-align:center;
 }
 }
+.revealItem{
+opacity:0;
+transform:translateY(70px);
+transition:all 1s ease;
+}
+
+.activeReveal{
+opacity:1;
+transform:translateY(0);
+}
+
+.itemCard{
+animation:fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn{
+
+0%{
+opacity:0;
+transform:scale(0.9);
+}
+
+100%{
+opacity:1;
+transform:scale(1);
+}
+
+}
+
+.hamburger-btn.open .line1{
+transform:rotate(45deg) translate(5px,5px);
+}
+
+.hamburger-btn.open .line2{
+opacity:0;
+}
+
+.hamburger-btn.open .line3{
+transform:rotate(-45deg) translate(7px,-7px);
+}
+
+.sidebar{
+transition:0.5s ease;
+}
+.revealItem{
+opacity:0;
+transform:translateY(70px);
+transition:1s ease;
+}
+
+.activeReveal{
+opacity:1;
+transform:translateY(0);
+}
+
+.hamburger-btn.open .line1{
+transform:rotate(45deg) translate(5px,5px);
+}
+
+.hamburger-btn.open .line2{
+opacity:0;
+}
+
+.hamburger-btn.open .line3{
+transform:rotate(-45deg) translate(7px,-7px);
+}
+
+.itemCard{
+animation:fadeSmooth 0.6s ease;
+}
+
+@keyframes fadeSmooth{
+
+0%{
+opacity:0;
+transform:scale(0.92);
+}
+
+100%{
+opacity:1;
+transform:scale(1);
+}
+
+}
